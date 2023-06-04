@@ -5,14 +5,14 @@ const cardClone = cardTemplate.content.cloneNode(true);
 const cardContainer = document.querySelector(".service__list");
 
 const cardList = [
-  { name: "STOVE/RANGE", image: "../images/example.jpg" },
-  { name: "WASHER & DRYER", image: "../images/example.jpg" },
-  { name: "ICE MAKER", image: "../images/example.jpg" },
-  { name: "COOKTOP", image: "../images/example.jpg" },
-  { name: "REFRIGERATOR", image: "../images/example.jpg" },
-  { name: "GARBAGE DISPOSAL", image: "../images/example.jpg" },
-  { name: "MICROWAVE", image: "../images/example.jpg" },
-  { name: "DISHWASHER", image: "../images/example.jpg" },
+  { name: "STOVE/RANGE", image: "example.jpg" },
+  { name: "WASHER & DRYER", image: "example.jpg" },
+  { name: "ICE MAKER", image: "example.jpg" },
+  { name: "COOKTOP", image: "example.jpg" },
+  { name: "REFRIGERATOR", image: "example.jpg" },
+  { name: "GARBAGE DISPOSAL", image: "example.jpg" },
+  { name: "MICROWAVE", image: "example.jpg" },
+  { name: "DISHWASHER", image: "example.jpg" },
 ];
 
 cardList.map((item) => {
@@ -21,7 +21,7 @@ cardList.map((item) => {
   const cardImage = newCard.querySelector(".card__image");
 
   cardName.textContent = item.name;
-  cardImage.style.backgroundImage = `url(${item.image})`;
+  cardImage.style.backgroundImage = `url(./images/${item.image})`;
 
   cardContainer.appendChild(newCard);
 });
