@@ -1,0 +1,19 @@
+.review-card {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.review-card__content {
+  border-top: 1px solid #0e0f3b;
+  border-bottom: 1px solid #0e0f3b;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.review-card__author {
+  margin: 30px auto 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}

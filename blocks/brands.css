@@ -1,0 +1,33 @@
+.brands {
+  margin: 0;
+  padding: 100px 0 80px;
+  text-align: center;
+  color: #0e0f3b;
+}
+
+.brands__title {
+  margin: 0 auto 43px;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 79px;
+}
+
+.brands__subtitle {
+  margin: 0 auto 80px;
+  max-width: 1050px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.brands__image {
+  max-width: 80%;
+  margin: 0 auto 70px;
+}
+
+.brands__footer {
+  margin: 0;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+}

@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}

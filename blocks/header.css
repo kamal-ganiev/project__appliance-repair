@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  height: 150px;
+  color: #0e0f3b;
+  padding: 10px 50px;
+  justify-content: space-between;
+}
+
+.header__logo {
+  height: 130px;
+  width: 190px;
+}
+
+.header__left {
+  display: flex;
+  gap: 55px;
+}
+
+.header__nav {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.header__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header__contact-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.header__contact-phone {
+  margin: 0;
+  color: #0e0f3b;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+}

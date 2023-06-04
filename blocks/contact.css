@@ -1,0 +1,33 @@
+.contact {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #eaeaea;
+  color: #0e0f3b;
+  text-align: center;
+}
+
+.contact__title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 auto 25px;
+}
+
+.contact__content {
+  display: flex;
+  margin: 0 0 15px;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+
+  color: #f7931e;
+}
+
+.contact__content:hover {
+  color: #0e0f3b;
+}

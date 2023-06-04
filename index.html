@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__left">
+        <img class="header__logo" src="./images/logo.png" alt="Logo" />
+        <ul class="header__nav nav">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#services">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="mailto:#">Schedule</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__contact">
+        <p class="header__contact-title">Call us</p>
+        <a class="header__contact-phone" href="tel:4128182053">412 818-2053</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="intro__overlay">
+          <div class="intro__content">
+            <h1 class="intro__title">Appliances Repair</h1>
+            <ul class="intro__list">
+              <li class="intro__item">Parts and Labor guaranteed</li>
+              <li class="intro__item">Same day repair is available</li>
+              <li class="intro__item">Free estimate if repair is completed</li>
+            </ul>
+            <div class="intro__buttons">
+              <a href="mailto:#"
+                ><button class="intro__schedule">
+                  Schedule Appointment
+                </button></a
+              >
+              <a href="tel:4128182053"
+                ><button class="intro__phone">Call us</button></a
+              >
+            </div>
+            <div class="intro__triangle"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="services">
+        <h2 class="service__title">Services</h2>
+        <p class="service__subtitle">
+          All services comes with one year warranty and same-day repair
+        </p>
+        <ul class="service__list">
+          <!-- List renders by JS -->
+        </ul>
+
+        <div class="service__line" />
+      </section>
+
+      <section class="brands">
+        <h2 class="brands__title">Appliance Repair Service</h2>
+        <p class="brands__subtitle">
+          Our expert technicians service all residential appliance models and
+          setups. Among the most common appliance types we work on are dryers,
+          washing machines, refrigerators, microwaves, dishwashers, ovens, deep
+          fryers and other appliances that are needed in everyday life ASL
+          Appliance Repair provides quality appliance repair services you can
+          trust! We’re always available to help, call us.
+        </p>
+        <img
+          class="brands__image"
+          src="./images/brands-list.png"
+          alt="List of all brands"
+        />
+        <p class="brands__footer">We Service All Major Brands</p>
+      </section>
+
+      <section class="review">
+        <h2 class="review__title">Our Clients Love Us</h2>
+        <div class="review__content">
+          <!-- Reviews renders by JS-->
+        </div>
+      </section>
+
+      <!-- <section class="gallery">
+        <h2 class="gallery__title">Appliances We Served</h2>
+        <div class="gallery__content">
+        </div>
+      </section> -->
+
+      <section class="about" id="about">
+        <div class="about__left">
+          <h2 class="about__title">About Us</h2>
+          <div class="about__content">
+            <p class="about__description">
+              Are you in need of timely and high-quality appliance repairs? Look
+              no further! Our company offers professional service and repair for
+              a wide range of appliances including washing machines,
+              refrigerators, dishwashers, microwave ovens and more.
+            </p>
+            <p class="about__description">
+              Our technicians have extensive experience and qualifications in
+              appliance repair, allowing them to quickly and efficiently solve
+              any problems with your appliances. We use only quality parts and
+              equipment to ensure long-term and reliable operation of your
+              appliances.Don't wait for your appliances to break down. Contact
+              us today and we will provide you with quality and efficient
+              service. Trust us to keep your household running smoothly
+            </p>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">
+              ✅ We have a team of highly skilled and experienced technicians
+            </li>
+            <li class="about__item">
+              ✅ We use the latest repair techniques and tools
+            </li>
+            <li class="about__item">✅ We’re oriented toward customer care</li>
+            <li class="about__item">
+              ✅ We offer competitive pricing on all our services
+            </li>
+          </ul>
+        </div>
+        <img class="about__image" src="/images/about-logo.png" alt="Logo" />
+      </section>
+
+      <section class="contact" id="#contact">
+        <h2 class="contact__title">Contact Us</h2>
+        <a
+          class="contact__content contact__email"
+          href="mailto:madappliancerepair@gmail.com"
+          >madappliancerepair@gmail.com</a
+        >
+        <a class="contact__content contact__phone" href="tel:4128182053"
+          >(412) 818-2053</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">© Designed by Kamal G, 2023</p>
+    </footer>
+
+    <template class="card__template">
+      <div class="card">
+        <img class="card__image" alt="Card's image" />
+        <h3 class="card__title"></h3>
+        <p class="card__price">$ 80</p>
+
+        <a class="card__link" href="mailto:#"
+          ><button class="card__button">Schedule Appointment</button></a
+        >
+      </div>
+    </template>
+
+    <template class="review__template">
+      <div class="review-card">
+        <div class="review-card__content">
+          <p class="review-card__text"></p>
+        </div>
+        <p class="review-card__author"></p>
+      </div>
+    </template>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
