@@ -21,7 +21,7 @@ cardList.map((item) => {
   const cardImage = newCard.querySelector(".card__image");
 
   cardName.textContent = item.name;
-  cardImage.src = item.image;
+  cardImage.style.backgroundImage = `url(${item.image})`;
 
   cardContainer.appendChild(newCard);
 });
