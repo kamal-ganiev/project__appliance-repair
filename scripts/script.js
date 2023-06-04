@@ -5,14 +5,14 @@ const cardClone = cardTemplate.content.cloneNode(true);
 const cardContainer = document.querySelector(".service__list");
 
 const cardList = [
-  { name: "STOVE/RANGE", image: "./images/example.jpg" },
-  { name: "WASHER & DRYER", image: "./images/example.jpg" },
-  { name: "ICE MAKER", image: "./images/example.jpg" },
-  { name: "COOKTOP", image: "./images/example.jpg" },
-  { name: "REFRIGERATOR", image: "./images/example.jpg" },
-  { name: "GARBAGE DISPOSAL", image: "./images/example.jpg" },
-  { name: "MICROWAVE", image: "./images/example.jpg" },
-  { name: "DISHWASHER", image: "./images/example.jpg" },
+  { name: "STOVE/RANGE", image: "../images/example.jpg" },
+  { name: "WASHER & DRYER", image: "../images/example.jpg" },
+  { name: "ICE MAKER", image: "../images/example.jpg" },
+  { name: "COOKTOP", image: "../images/example.jpg" },
+  { name: "REFRIGERATOR", image: "../images/example.jpg" },
+  { name: "GARBAGE DISPOSAL", image: "../images/example.jpg" },
+  { name: "MICROWAVE", image: "../images/example.jpg" },
+  { name: "DISHWASHER", image: "../images/example.jpg" },
 ];
 
 cardList.map((item) => {
