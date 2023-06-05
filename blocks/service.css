@@ -31,7 +31,7 @@
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 100px;
-  column-gap: 70px;
+  column-gap: 5%;
 }
 
 .service__line {

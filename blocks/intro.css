@@ -21,12 +21,12 @@
 .intro__content {
   position: relative;
   padding-left: 5%;
+  padding-top: 45px;
+  padding-bottom: 20px;
   background-color: #fff;
-  height: 400px;
-  width: 40%;
+  width: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .intro__triangle {
@@ -52,7 +52,7 @@
 .intro__list {
   position: relative;
   z-index: 2;
-  margin: 0 0 75px;
+  margin: 0 0 65px;
   padding: 0 0 0 25px;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
   border: none;
   border-radius: 10px;
   color: #fff;
-  width: 350px;
+  width: 50%;
   height: 75px;
   background-color: #f7931e;
 
@@ -91,7 +91,7 @@
   line-height: 30px;
   position: relative;
   z-index: 2;
-  width: 250px;
+  width: 40%;
   height: 75px;
   border: 2px solid #f7931e;
   color: #f7931e;
