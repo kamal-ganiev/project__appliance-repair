@@ -7,13 +7,13 @@
   border-top: 1px solid #0e0f3b;
   border-bottom: 1px solid #0e0f3b;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 1.5em;
+  line-height: 1.1em;
 }
 
 .review-card__author {
   margin: 30px auto 0;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 2em;
+  line-height: 1.2em;
 }

@@ -4,6 +4,7 @@
   color: #0e0f3b;
   padding: 10px 50px;
   justify-content: space-between;
+  transition: 0.3s;
 }
 
 .header__logo {
@@ -49,4 +50,35 @@
   font-weight: 300;
   font-size: 25px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .header {
+    height: 100px;
+  }
+
+  .header__logo {
+    height: 100px;
+    width: 160px;
+  }
+
+  .header__left {
+    gap: 25px;
+  }
+
+  .header__nav {
+    font-size: 20px;
+    line-height: 25px;
+    gap: 25px;
+  }
+
+  .header__contact {
+    gap: 15px;
+  }
+
+  .header__contact-phone,
+  .header__contact-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }

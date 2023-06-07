@@ -3,21 +3,22 @@
   padding: 100px 0 80px;
   text-align: center;
   color: #0e0f3b;
+  transition: 0.3s;
 }
 
 .brands__title {
   margin: 0 auto 43px;
   font-weight: 500;
-  font-size: 65px;
-  line-height: 79px;
+  font-size: 4.3em;
+  line-height: 1.3em;
 }
 
 .brands__subtitle {
   margin: 0 auto 80px;
-  max-width: 1050px;
+  max-width: 43em;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.7em;
+  line-height: 1.2em;
 }
 
 .brands__image {
@@ -28,6 +29,12 @@
 .brands__footer {
   margin: 0;
   font-weight: 500;
-  font-size: 34px;
-  line-height: 41px;
+  font-size: 2.26em;
+  line-height: 1.1em;
+}
+
+@media screen and (max-width: 1100px) {
+  .brands {
+    padding: 80px 0 70px;
+  }
 }
