@@ -147,3 +147,9 @@
     transform: translateY(-9.5px);
   }
 }
+
+@media screen and (max-height: 600px) {
+  .intro {
+    height: 500px;
+  }
+}
