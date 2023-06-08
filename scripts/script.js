@@ -85,3 +85,37 @@ setInterval(() => {
 
   i = i + 1;
 }, 10000);
+
+// Script for menu
+
+const menuButton = document.querySelector(".header__nav-button");
+const menuPopup = document.querySelector(".nav");
+const menuPopupOverlay = document.querySelector(".header__modal-overlay");
+
+function openPopup() {
+  menuPopup.style.transform = "translateX(0)";
+  menuPopupOverlay.style.transform = "scaleX(1)";
+  document.addEventListener("keydown", handleEscClose);
+}
+
+function closePopup(e) {
+  menuPopup.style.transform = "translateX(120%)";
+  menuPopupOverlay.style.transform = "scaleX(0)";
+  document.removeEventListener("keydown", handleEscClose);
+}
+
+function handleEscClose(e) {
+  if (e.key === "Escape") {
+    closePopup();
+  }
+}
+
+function handleOutsideClickClose(e) {
+  console.log(e.target, e.currentTarget);
+  if (e.target === e.currentTarget) {
+    closePopup();
+  }
+}
+
+menuButton.addEventListener("click", openPopup);
+menuPopupOverlay.addEventListener("mousedown", handleOutsideClickClose);

@@ -43,6 +43,7 @@
   font-size: 1.2em;
   line-height: 1.2em;
   list-style: none;
+  text-align: left;
 }
 
 .about__image {
@@ -60,5 +61,20 @@
 
   .about__content {
     margin-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about__left {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .about__image {
+    position: absolute;
+    opacity: 0.3;
+    max-width: 80%;
   }
 }

@@ -68,18 +68,23 @@
   margin: 0;
 }
 
+.intro__buttons {
+  height: 75px;
+}
+
 .intro__schedule {
+  margin: 0;
   font-weight: 500;
   font-size: 1.7em;
   line-height: 1.1em;
   position: relative;
   z-index: 2;
-  margin: 0;
   border: none;
+  text-decoration: none;
   border-radius: 10px;
   color: #fff;
   width: 50%;
-  height: 75px;
+  height: 100%;
   background-color: #f7931e;
 
   cursor: pointer;
@@ -87,14 +92,15 @@
 }
 
 .intro__phone {
-  margin: 0 0 0 45px;
+  margin: 0 0 0 5%;
   font-weight: 500;
   font-size: 1.7em;
   line-height: 1.1em;
   position: relative;
   z-index: 2;
   width: 40%;
-  height: 75px;
+  height: 100%;
+  text-decoration: none;
   border: 2px solid #f7931e;
   color: #f7931e;
   border-radius: 10px;
@@ -119,5 +125,25 @@
 
   .intro__triangle {
     border-bottom: 365px solid #fff;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .intro__triangle {
+    display: none;
+  }
+
+  .intro__content {
+    width: 100%;
+  }
+
+  .intro__buttons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .intro__schedule {
+    transform: translateY(-9.5px);
   }
 }

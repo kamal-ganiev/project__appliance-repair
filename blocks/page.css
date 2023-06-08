@@ -14,3 +14,9 @@ html {
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .page {
+    font-size: 10px;
+  }
+}

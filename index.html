@@ -33,9 +33,12 @@
     <title>ASL Appliance Repair</title>
   </head>
   <body class="page">
+    <div class="header-button invisible"></div>
+
     <header class="header">
       <div class="header__left">
         <img class="header__logo" src="./images/logo.png" alt="Logo" />
+        <div class="header__modal-overlay"></div>
         <ul class="header__nav nav">
           <li class="nav__item">
             <a class="nav__link" href="#about">About us</a>
@@ -44,12 +47,14 @@
             <a class="nav__link" href="#services">Services</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="mailto:#">Schedule</a>
-          </li>
-          <li class="nav__item">
             <a class="nav__link" href="#contact">Contact us</a>
           </li>
+          <li class="nav__contacts">
+            <p class="nav__contact-title">Call us</p>
+            <a class="nav__contact-phone" href="tel:4128182053">412 818-2053</a>
+          </li>
         </ul>
+        <button class="header__nav-button">Menu</button>
       </div>
       <div class="header__contact">
         <p class="header__contact-title">Call us</p>
@@ -68,7 +73,7 @@
               <li class="intro__item">Free estimate if repair is completed</li>
             </ul>
             <div class="intro__buttons">
-              <a href="mailto:#"
+              <a href="mailto:madappliancerepair@gmail.com"
                 ><button class="intro__schedule">
                   Schedule Appointment
                 </button></a

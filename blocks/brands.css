@@ -38,3 +38,9 @@
     padding: 80px 0 70px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .brands__image {
+    max-width: 100%;
+  }
+}

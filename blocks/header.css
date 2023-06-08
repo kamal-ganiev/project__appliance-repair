@@ -38,8 +38,8 @@
 
 .header__contact-title {
   font-weight: 600;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.6em;
+  line-height: 1.1em;
   margin: 0;
 }
 
@@ -48,8 +48,42 @@
   color: #0e0f3b;
   text-decoration: none;
   font-weight: 300;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.6em;
+  line-height: 1.1em;
+}
+
+.header__modal-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.25);
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.6s;
+}
+
+.header__nav-button {
+  display: none;
+  background: none;
+  border: 2px solid #0e0f3b;
+  border-radius: 10px;
+  width: 100px;
+  height: 45px;
+  color: #0e0f3b;
+  margin: auto 0;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header__nav-button:hover {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (max-width: 1100px) {
@@ -75,10 +109,40 @@
   .header__contact {
     gap: 15px;
   }
+}
 
-  .header__contact-phone,
-  .header__contact-title {
-    font-size: 20px;
-    line-height: 25px;
+@media screen and (max-width: 740px) {
+  .header {
+    padding: 10px 20px;
+  }
+
+  .header__contact {
+    display: none;
+  }
+
+  .header__left {
+    gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header__nav-button {
+    display: block;
+  }
+
+  .header__nav {
+    background-color: white;
+    position: fixed;
+    top: -20px;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    z-index: 4;
+    box-shadow: 1px 1px 20px 1px black;
+    flex-direction: column;
+    padding-top: 50px;
+
+    transform: translateX(120%);
+    transition: 0.5s;
   }
 }
